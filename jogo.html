@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movendo Botão</title>
+    <link rel="stylesheet" href="src/jogo.css">
+</head>
+
+<body>
+    <main>
+        <section class="header">
+            <button class="voltar">
+                <a href="index.html">
+                    <img src="src/img/icons8-back-50.png" alt="voltar">
+                </a>
+            </button>
+        </section>
+        <section class="onesec">
+            <h1>Quem ama mais?</h1>
+
+            <div id="mensagem-vitoria" style="display: none;">Exatamente! Jhonathas ama bem mais, parabéns por acertar a resposta.</div>
+
+            <div>
+                <button id="botao" onclick="moverBotao()">Naiala</button>
+                <button id="botao-certo" onclick="mostrarMensagem()">
+                    Jhonathas
+                </button>
+            </div>
+        </section>
+    </main>
+    <script src="src/script.js"></script>
+</body>
+
+</html>
